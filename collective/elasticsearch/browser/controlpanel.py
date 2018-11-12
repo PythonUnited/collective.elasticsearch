@@ -9,6 +9,10 @@ from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from z3c.form import form
 
 import math
+import logging
+
+
+logger = logging.getLogger('collective.elasticsearch')
 
 
 class ElasticControlPanelForm(RegistryEditForm):
